@@ -1,0 +1,21 @@
+{
+  "name": "tree_shaker_dependency_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/src/index.js",
+  "__main": "src/index.ts",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "install": "^0.13.0",
+    "npm": "^8.5.3"
+  }
+}
